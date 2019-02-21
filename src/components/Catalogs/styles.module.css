@@ -1,0 +1,23 @@
+.catalog {
+    -webkit-box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.54);
+    -moz-box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.54);
+    box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.54);
+    border: 1px solid black;
+    height: auto;
+    max-height: 350px;
+    text-align: left;
+    border-radius: 10px;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.catalog:hover {
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 768px) {
+    .catalog {
+        max-height: 700px;
+    }
+}

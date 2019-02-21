@@ -1,0 +1,45 @@
+.checkoutbutton {
+    color: white;
+    font-size: 24px;
+    background-color: #5f697a;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.checkoutbutton:hover {
+    cursor: pointer;
+}
+
+.order {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20%;
+    margin-top: 100px;
+}
+
+.orderitem {
+    text-align: left;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.orderitem .price,
+.total {
+    text-align: right;
+}
+
+.removeorderitem {
+    background-image: url('../assets/x.png');
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.removeorderitem:hover {
+    cursor: pointer;
+}

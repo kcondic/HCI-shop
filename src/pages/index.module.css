@@ -1,0 +1,68 @@
+.mainpage h1,
+.mainpage p {
+    padding-left: 5%;
+}
+
+.mainpage p {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.mainpage p:last-of-type {
+    text-decoration: underline;
+}
+
+.todaysoffers {
+    display: flex;
+    padding: 0 15%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.todaysoffers figure {
+    flex-basis: 40%;
+}
+
+.todaysoffers figure figcaption {
+    position: relative;
+}
+
+.todaysoffers figure figcaption img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+@media screen and (max-width: 1160px) {
+    .todaysoffers {
+        padding: 0;
+    }
+
+    .todaysoffers figure {
+        flex-basis: 40%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .todaysoffers figure {
+        flex-basis: 60%;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .todaysoffers figure {
+        flex-basis: 80%;
+    }
+
+    .mainpage h1,
+    .mainpage p {
+        font-size: 16px;
+    }
+
+    .todaysoffers figure figcaption img {
+        width: 30px;
+        height: 30px;
+    }
+}
